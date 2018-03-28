@@ -77,11 +77,15 @@
 
     <distributionManagement>
         <repository>
-            <id>jboss-releases-repository</id>
-            <name>JBoss Releases Repository</name>
-            <url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url>
+            <id>community-deploy</id>
+            <url>http://infra-bln-3-nexus2.psi.de:8081/nexus/content/repositories/COMREL/</url>
         </repository>
+        <snapshotRepository>
+            <id>community-deploy</id>
+            <url>http://infra-bln-3-nexus2.psi.de:8081/nexus/content/repositories/COMSNAP/</url>
+        </snapshotRepository>
     </distributionManagement>
+
     <repositories>
         <repository>
             <id>jboss</id>
