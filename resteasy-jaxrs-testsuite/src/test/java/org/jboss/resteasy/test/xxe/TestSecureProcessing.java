@@ -404,8 +404,8 @@ public class TestSecureProcessing
       Assert.assertTrue(entity.contains("org.xml.sax.SAXParseException"));
       Assert.assertTrue(entity.contains("JAXP00010002:"));
       if ("en".equals(System.getProperty("user.language"))) {
-         Assert.assertTrue(entity.contains("has more than \"10,00"));
-         int pos = entity.indexOf("has more than \"10,00");
+         Assert.assertTrue(entity.contains("has more than \"10"));
+         int pos = entity.indexOf("has more than \"10");
          Assert.assertTrue(entity.substring(pos).contains("attributes"));
       }
    }
