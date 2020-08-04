@@ -19,6 +19,7 @@
         <version.org.springframework>4.2.5.RELEASE</version.org.springframework>
         <version.org.aspectj>1.7.3</version.org.aspectj>
         <version.aopalliance>1.0</version.aopalliance>
+        <maven.test.skip>true</maven.test.skip>
     </properties>
 
     <modules>
